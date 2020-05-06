@@ -63,6 +63,9 @@ docker: Error response from daemon: driver failed programming external connectiv
 
 
 # docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-42d8bb80aee5        shs12321/nginx_ubuntu        "nginx -g 'daemon of…"   12 minutes ago      Up 12 minutes       0.0.0.0:8888->80/tcp   n1
-36c86923abf2        167b2d508ee0        "/bin/sh -c /install…"   37 minutes ago      Up 37 minutes        
+root@u1:~/200506test1# docker ps -a
+CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS                            PORTS               NAMES
+25410477f2b5        shs12321/nginx_ubuntu   "nginx -g 'daemon of…"   13 minutes ago      Created                                               nu
+42d8bb80aee5        nowage/nginx            "nginx -g 'daemon of…"   22 minutes ago      Exited (0) About a minute ago                         n1
+36c86923abf2        167b2d508ee0            "/bin/sh -c /install…"   48 minutes ago      Exited (137) About a minute ago                       brave_mahavira
+f8e3a6f4b047        hello-world             "/hello"                 49 minutes ago      Exited (0) 49 minutes ago                             angry_aryabhata
