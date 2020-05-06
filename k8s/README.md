@@ -4,7 +4,7 @@
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
 deployment.apps/nu created
 
-#오토스케일 20개 pod 적용 실행
+#20개 pod 적용 실행
 [root@node1 ~]# kubectl scale deploy nu --replicas=20
 deployment.extensions/nu scaled
 
